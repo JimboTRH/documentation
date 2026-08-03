@@ -1,0 +1,113 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Prism Space Docs",
+  "icons": {
+    "library": "lucide"
+  },
+  "colors": {
+    "primary": "#36c185",
+    "light": "#07C983",
+    "dark": "#36c185"
+  },
+  "background": {
+  "color": {
+    "light": "#FFFFFF",
+    "dark": "#000000"
+  }
+},
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "quick-start"
+            ]
+          },
+          {
+            "group": "Using Prism Space",
+            "pages": [
+              "home",
+              "messages",
+              "activity-tracking",
+              {
+                "group": "Staff",
+                "icon": "users",
+                "pages": [
+                  "time-off",
+                  "views",
+                  "directory-profile"
+                ]
+              },
+              {
+                "group": "Sessions",
+                "icon": "calendar",
+                "pages": [
+                  "creating-sessions",
+                  "joining-sessions",
+                  "taking-attendance",
+                  "session-boards"
+                ]
+              },
+              {
+                "group": "Knowledge Base",
+                "icon": "book-text",
+                "pages": [
+                  "creating-content",
+                  "categories"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Open-Source Licence",
+            "pages": [
+              "lumonol-software-licence-lsl-v1-0"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference"
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.png",
+    "height": 35
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Contact Support",
+        "href": "https://discord.gg/sWmeE9PWKk"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Go to Prism Space",
+      "href": "https://app.prismspace.xyz"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "appearance": {
+    "strict": true,
+    "default": "dark"
+  }
+}
