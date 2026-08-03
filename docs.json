@@ -98,6 +98,7 @@
               "api-reference/sessions/list-signups",
               "api-reference/sessions/assign-role",
               "api-reference/sessions/list-servers",
+              "api-reference/sessions/list-server-signups",
               "api-reference/sessions/create-server",
               "api-reference/sessions/edit-server",
               "api-reference/sessions/delete-server"
