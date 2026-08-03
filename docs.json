@@ -72,7 +72,37 @@
         ]
       },
       {
-        "tab": "API Reference"
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Workspace API",
+            "pages": [
+              "api-reference/authentication"
+            ]
+          },
+          {
+            "group": "Moderation",
+            "pages": [
+              "api-reference/moderation/list-bans",
+              "api-reference/moderation/check-ban",
+              "api-reference/moderation/create-ban",
+              "api-reference/moderation/edit-ban",
+              "api-reference/moderation/delete-ban"
+            ]
+          },
+          {
+            "group": "Sessions",
+            "pages": [
+              "api-reference/sessions/list-sessions",
+              "api-reference/sessions/list-signups",
+              "api-reference/sessions/assign-role",
+              "api-reference/sessions/list-servers",
+              "api-reference/sessions/create-server",
+              "api-reference/sessions/edit-server",
+              "api-reference/sessions/delete-server"
+            ]
+          }
+        ]
       }
     ]
   },
